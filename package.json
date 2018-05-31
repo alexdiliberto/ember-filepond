@@ -1,11 +1,14 @@
 {
   "name": "ember-filepond",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A handy FilePond adapter component for Ember",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "filepond",
+    "file",
+    "upload"
   ],
-  "repository": "",
+  "repository": "https://github.com/alexdiliberto/ember-filepond",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -20,7 +23,9 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "ember-cli-babel": "^6.6.0",
+    "ember-cli-cjs-transform": "^1.2.0",
+    "filepond": "^1.7.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -35,6 +40,7 @@
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
+    "ember-composable-helpers": "^2.1.0",
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
@@ -45,7 +51,13 @@
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
-    "loader.js": "^4.2.3"
+    "filepond-plugin-file-validate-type": "^1.1.0",
+    "filepond-plugin-image-crop": "^1.0.1",
+    "filepond-plugin-image-preview": "^1.0.9",
+    "filepond-plugin-image-resize": "^1.0.1",
+    "filepond-plugin-image-transform": "^1.0.1",
+    "loader.js": "^4.2.3",
+    "qunit-dom": "^0.6.3"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
