@@ -1,0 +1,23 @@
+{{#docs-viewer as |viewer|}}
+
+  {{#viewer.nav as |nav|}}
+    {{nav.section "Introduction"}}
+    {{#nav.subnav as |nav|}}
+      {{nav.item "Overview" "docs.index"}}
+    {{/nav.subnav}}
+
+    {{nav.section "Components"}}
+    {{#nav.subnav as |nav|}}
+      {{nav.item "ember-filepond" "docs.components.ember-filepond"}}
+    {{/nav.subnav}}
+  {{/viewer.nav}}
+
+  {{#viewer.main}}
+    <div class="docs-container">
+      <div class="docs-section">
+        {{outlet}}
+      </div>
+    </div>
+  {{/viewer.main}}
+
+{{/docs-viewer}}
