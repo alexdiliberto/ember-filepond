@@ -1,7 +1,8 @@
 ember-filepond
 ==============================================================================
 
-[Short description of the addon.]
+A handy [FilePond](https://pqina.nl/filepond/) adapter component for Ember
+
 
 Installation
 ------------------------------------------------------------------------------
@@ -11,10 +12,10 @@ ember install ember-filepond
 ```
 
 
-Usage
+Documentation
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+https://alexdiliberto.com/ember-filepond
 
 
 Contributing
@@ -43,6 +44,26 @@ Contributing
 * Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+### Release
+
+Ready to draft a new release:
+
+```sh
+npm version
+git push
+# Draft release on Github
+# Validate passing tests on Travis 
+npm publish
+```
+
+### Deploy
+
+Deploys are automated using Travis CI. If you need to manually deploy, run the following command:
+
+```sh
+ember deploy production
+```
 
 License
 ------------------------------------------------------------------------------
