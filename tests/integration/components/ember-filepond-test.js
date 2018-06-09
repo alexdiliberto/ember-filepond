@@ -12,6 +12,6 @@ module('Integration | Component | ember-filepond', function(hooks) {
     await render(hbs`{{ember-filepond}}`);
 
     assert.dom('.filepond--root').exists({ count: 1 }, 'filepond upload component has been successfully rendered');
-    assert.dom('*').hasText('Drag & Drop your files or Browse', 'default filepond instruction text');
+    assert.dom('label').includesText('Drag & Drop your files or Browse', 'default filepond instruction text');
   });
 });
