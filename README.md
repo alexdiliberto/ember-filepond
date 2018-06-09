@@ -50,7 +50,7 @@ For more information on using ember-cli, visit [https://ember-cli.com/](https://
 Ready to draft a new release:
 
 ```sh
-npm version
+npm version [major | minor | patch]
 git push
 # Draft release on Github
 # Validate passing tests on Travis 
