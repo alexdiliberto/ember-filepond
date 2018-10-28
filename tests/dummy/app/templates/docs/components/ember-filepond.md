@@ -5,10 +5,10 @@
 {{#docs-demo as |demo|}}
   {{#demo.example name='demo-ember-filepond-basic.hbs'}}
     {{ember-filepond
-      name="filepond-basic-uploader"
-      labelIdle="<span class='text-purple'>Drag & Drop your files or <span class='filepond--label-action text-blue hover:text-blue-darkest'>Browse</span>!</span>"}}
+        name="filepond-basic-uploader"
+        labelIdle="<span class='docs-text-purple'>Drag & Drop your files or <span class='filepond--label-action docs-text-blue hover:docs-text-blue-darkest'>Browse</span>!</span>"}}
   {{/demo.example}}
-  
+
   {{demo.snippet 'demo-ember-filepond-basic.hbs'}}
 {{/docs-demo}}
 
@@ -16,7 +16,7 @@
 ## One Plugin and Options
 
 {{file-picker
-  plugins=FilePondImagePreview}} 
+  plugins=FilePondImagePreview}}
 
 ## Many Plugins and Options<
 {{file-picker
