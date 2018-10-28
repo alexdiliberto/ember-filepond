@@ -1,6 +1,6 @@
 {
   "name": "ember-filepond",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A handy FilePond adapter component for Ember",
   "keywords": [
     "ember-addon",
