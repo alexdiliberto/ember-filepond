@@ -1,20 +1,22 @@
 {
   "master": {
-    "path": "master",
+    "path": "versions/master",
     "name": "master",
-    "sha": "be60b5a4450b8c1c19a710adf47ead49c3d76d3c",
+    "sha": "c3557d871ad92b77a23998a71b0d4c4539c2ba44",
     "tag": null
   },
   "v0.0.2": {
-    "path": "v0.0.2",
+    "path": "versions/v0.0.2",
     "name": "v0.0.2",
     "sha": "ea56fa76607c34c0e4a346f8f1c7e062b3fa5cf6",
-    "tag": "v0.0.2"
+    "tag": "v0.0.2",
+    "oldPath": "v0.0.2"
   },
-  "latest": {
-    "path": "latest",
-    "name": "latest",
+  "-latest": {
+    "path": "",
+    "name": "Latest",
     "sha": "ea56fa76607c34c0e4a346f8f1c7e062b3fa5cf6",
-    "tag": "v0.0.2"
+    "tag": "v0.0.2",
+    "oldPath": "latest"
   }
 }
